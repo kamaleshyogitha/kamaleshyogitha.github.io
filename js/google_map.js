@@ -9,7 +9,7 @@ function init() {
     // 17.68490366781238, 83.20588945512236
     // 17.68487300238225, 83.20640443925127
     // 17.68487300238225, 83.20637225270173
-    var myLatlng = new google.maps.LatLng(17.801854399762252, 83.20928106671609);
+    var myLatlng = new google.maps.LatLng(17.801734998411366, 83.209259639732); 
     // 39.399872
     // -8.224454
 
@@ -33,7 +33,7 @@ function init() {
 // 17.684791343928435, 83.20586058531512
     // Create the Google Map using out element and options defined above
     // var map = new google.maps.Map(mapElement, mapOptions);
-    const myLatLng = { lat: 17.801854399762252, lng: 83.20928106671609 };
+    const myLatLng = { lat: 17.801734998411366, lng: 83.209259639732 };
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 20,
         center: myLatLng,
