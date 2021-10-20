@@ -624,25 +624,23 @@
 	<script src="js/main.js"></script>
 
 	<script>
-		var d = new Date('2021-10-20T21:09:35');
+		var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
 
-		// default example
-		simplyCountdown('.simply-countdown-one', {
-			year: 2021,
-                        month: 10,
-                        day: 20,
-                        hours: 09,
-                        minutes: 05,
-                        seconds: 00
-		});
+simplyCountdown('.simply-countdown-one', {
+    year: 2021,
+    month: 10,
+    day: 20,
+    hours: 21,
+     minutes: 35,
+     seconds: 0,
+});
 
-		//jQuery example
-		$('#simply-countdown-losange').simplyCountdown({
-			year: d.getFullYear(),
-			month: d.getMonth() + 1,
-			day: d.getDate(),
-			enableUtc: false
-		});
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
 	</script>
 
 </body>
